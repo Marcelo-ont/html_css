@@ -1,4 +1,16 @@
+/*CSS general de elementos*/
 body{
-    background-color: #1b1b1b;
+    background-color: #000000;
     color: white;
+}
+h3{
+    color: #999;
+}
+/*CSS ID y Clases*/
+.hashtag{
+    color: #ffc900;
+}
+#experiencia{
+    background-color: white;
+    color: #222;
 }
