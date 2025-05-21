@@ -1,15 +1,25 @@
 /*CSS general de elementos*/
 body{
-    background-color: #000000;
+    background-color: #2b2929;
     color: white;
+    font: 200 14px "Poppins", sans-serif;
+}
+h2{
+    font-size: 36px;
 }
 h3{
     color: #999;
+    font-size: 18px;
+    font-weight: 300;
+}
+cite{
+    font-weight: 300;
 }
 /*CSS ID y Clases*/
 .hashtag{
     color: #ffc900;
 }
+
 #experiencia{
     background-color: white;
     color: #222;
