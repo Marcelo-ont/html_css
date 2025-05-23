@@ -1,4 +1,8 @@
 /*CSS general de elementos*/
+*{
+    margin:0px;
+    padding:0px;
+}
 body{
     background-color: #2b2929;
     color: white;
@@ -6,11 +10,15 @@ body{
 }
 h2{
     font-size: 36px;
+    line-height: 36px;
 }
 h3{
     color: #999;
     font-size: 18px;
     font-weight: 300;
+}
+p{
+    text-align: justify;
 }
 cite{
     font-weight: 300;
@@ -19,8 +27,26 @@ cite{
 .hashtag{
     color: #ffc900;
 }
-
+.seccion{
+    padding: 10px 100px 10px 100px;
+    /*
+    Lo de arriba es lo mismo que esto de aca abajo
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    */
+}
+#inicio{
+    background-image: url("fondo\ nirvana\ web.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 280px;
+}
 #experiencia{
     background-color: white;
     color: #222;
+}
+#portafolio{
+    border-top: 1px solid #ffc900;
 }
