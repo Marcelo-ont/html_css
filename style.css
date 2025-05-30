@@ -24,6 +24,10 @@ cite{
     font-weight: 300;
 }
 /*CSS ID y Clases*/
+.icon{
+    font-size: 24px;
+    margin-right: 10px;
+}
 .hashtag{
     color: #ffc900;
 }
@@ -36,6 +40,10 @@ cite{
     padding-top: 10px;
     padding-bottom: 10px;
     */
+}
+#redessociales{
+    margin-top: 20px;
+    list-style: none;
 }
 #inicio{
     background-image: url("fondo\ nirvana\ web.png");
