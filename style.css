@@ -23,10 +23,26 @@ p{
 cite{
     font-weight: 300;
 }
+a:any-link{
+    color: white;
+}
+a:-webkit-any-link{
+    color: white;
+}
+a:-moz-any-link{
+    color: white;
+}
+li{
+    float: left;
+    width: 30px;
+}
 /*CSS ID y Clases*/
 .icon{
     font-size: 24px;
     margin-right: 10px;
+}
+.icon:hover{
+    color: black;
 }
 .hashtag{
     color: #ffc900;
